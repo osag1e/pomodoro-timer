@@ -1,5 +1,4 @@
 from time import sleep
-from os.path import path
 
 var Work_Duration: Int = 50 * 60
 var Break_Duration: Int = 10 * 60
