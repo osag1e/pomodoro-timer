@@ -1,7 +1,7 @@
 from time import sleep
 
-var Work_Duration: Int = 50 * 60
-var Break_Duration: Int = 10 * 60
+var Work_Duration: Int16 = 50 * 60
+var Break_Duration: Int16 = 10 * 60
 
 
 fn start_pomodoro_timer():
@@ -17,7 +17,7 @@ fn start_pomodoro_timer():
         is_working = not is_working
 
 
-fn update_display(seconds_remaining: Int):
+fn update_display(seconds_remaining: Int16):
     var minutes = seconds_remaining // 60
     var seconds = seconds_remaining % 60
     print("\rTimer 🍅⏳", minutes, ":", seconds, end="")
@@ -27,7 +27,7 @@ fn display_message(message: String):
     print("\n", message)
 
 
-fn start_timer(duration: Int):
+fn start_timer(duration: Int16):
     var seconds_remaining = duration
 
     while seconds_remaining > 0:
@@ -35,8 +35,3 @@ fn start_timer(duration: Int):
         seconds_remaining -= 1
         update_display(seconds_remaining)
     display_message("Time's up!")
-
-fn main():
-    start_pomodoro_timer()
-
-
