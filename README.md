@@ -1,5 +1,5 @@
 # pomodoro-timer
-A terminal-based Pomodoro timer
+CLI Pomodoro timer with work and break duration alerts. The sound alerts only work for macOS.
 
 ### Run the program directly:
 -           mojo pomodoro.mojo
