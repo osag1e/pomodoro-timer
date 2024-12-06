@@ -15,16 +15,20 @@ Follow the getting started guide on how to create a mojo project through
 this link: https://docs.modular.com/magic
 
 After you have created the mojo project you can then clone this repo inside of your project
-using: git clone https://github.com/osag1e/pomodoro-timer.git
+using:
+```
+     git clone https://github.com/osag1e/pomodoro-timer.git
+```
 
 Then move into the pomodoro-timer before running the program:
 ```
      cd pomodoro-timer
 ```
 
-
 ### Run the program directly:
--           mojo main.mojo
+```
+     mojo main.mojo
+```
 
 ![pomo](https://github.com/osag1e/pomodoro-timer/blob/main/pomo.png)
 
